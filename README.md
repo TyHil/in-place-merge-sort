@@ -1,2 +1,5 @@
 # in-place-merge-sort
- Merge sort in the same array.
+## Description
+Merge sort implemented in a single array, x in this case.
+## License
+GPL-3.0 License
