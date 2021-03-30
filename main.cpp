@@ -23,8 +23,10 @@ void mergeSort(int * x, const int min, const int max) {
 }
 int main() {
   int n;
+  std::cout << "length (n): ";
   std::cin >> n;
   int * x = new int[n];
+  std::cout << "array (x): ";
   for (int i = 0; i < n; i++) std::cin >> x[i];
   mergeSort(x, 0, n);
   for (int i = 0; i < n; i++) std::cout << x[i] << " ";
